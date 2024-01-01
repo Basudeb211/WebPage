@@ -187,7 +187,7 @@ button{
 
 
 /* -------------------------------------------------------------- */
-/* Media query for phones */
+/* Media query for phones*/
 @media only screen and (max-width: 600px) {
     .container{
         min-height: 400vh;
@@ -257,3 +257,45 @@ button{
 }
 
 /* Media query for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      min-height: 250vh;
+      gap: 2%;
+      margin-top: 5%;
+    }
+    .top{
+      min-height: 25%;
+    }
+    .bottom{
+      height: 45%;
+    }
+    .lists {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      color: #fff;
+    }
+    .bg-1 {
+      width: 95%;
+      height: 50%;
+  }
+    .bottom {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .banner {
+      height: 60%;
+      width: 100%;
+      gap: 1%;
+  }
+    .bleft {
+      width: 50%;
+      height: 50%;
+      margin: auto;
+    }
+    .bg-1 {
+      width: 80%;
+      height: 40%;
+    }
+  }
+  
